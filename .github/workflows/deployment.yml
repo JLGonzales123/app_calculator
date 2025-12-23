@@ -64,7 +64,7 @@ jobs:
       - name: Checkout staging repo (main)
         uses: actions/checkout@v4
         with:
-          repository: https://jlgonzales123.github.io/app_calculator_staging
+          repository: JLGonzales123/app_calculator_staging
           ref: main
           token: ${{ secrets.CICD_TOKEN }}
           path: staging
